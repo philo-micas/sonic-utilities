@@ -2986,7 +2986,7 @@ This command is used to show ipv6 dhcp_relay counters.
 
 - Example:
   ```
-  admin@sonic:~$ sudo sonic-clear dhcp_relay counters
+  admin@sonic:~$ show dhcp_relay ipv6 counters
          Message Type    Vlan1000
   -------------------  ----------
               Unknown           0
@@ -5814,7 +5814,7 @@ The type of interfaces include the following.
 #### show ip protocol
 
 This command displays the route-map that is configured for the routing protocol.
-Refer the routing stack [Quagga Command Reference](https://www.nongnu.org/quagga/docs/quagga.pdf) or [FRR Command Reference](https://buildmedia.readthedocs.org/media/pdf/frrouting/latest/frrouting.pdf) to know more about this command.
+Refer the routing stack [Quagga Command Reference](https://www.nongnu.org/quagga/docs/quagga.pdf) or [FRR Command Reference](https://docs.frrouting.org/en/latest/) to know more about this command.
 
 - Usage:
   ```
@@ -5949,7 +5949,7 @@ The type of interfaces include the following.
 **show ipv6 protocol**
 
 This command displays the route-map that is configured for the IPv6 routing protocol.
-Refer the routing stack [Quagga Command Reference](https://www.nongnu.org/quagga/docs/quagga.pdf) or [FRR Command Reference](https://buildmedia.readthedocs.org/media/pdf/frrouting/latest/frrouting.pdf) to know more about this command.
+Refer the routing stack [Quagga Command Reference](https://www.nongnu.org/quagga/docs/quagga.pdf) or [FRR Command Reference]([https://buildmedia.readthedocs.org/media/pdf/frrouting/latest/frrouting.pdf](https://docs.frrouting.org/en/latest/)) to know more about this command.
 
 
 - Usage:
@@ -12492,7 +12492,7 @@ Once if users go to "vtysh", they can use the routing stack specific commands as
       Exit routemap
   ```
 
-Refer the routing stack [Quagga Command Reference](https://www.nongnu.org/quagga/docs/quagga.pdf) or [FRR Command Reference](https://buildmedia.readthedocs.org/media/pdf/frrouting/latest/frrouting.pdf) to know more about about the routing stack configuration.
+Refer the routing stack [Quagga Command Reference](https://www.nongnu.org/quagga/docs/quagga.pdf) or [FRR Command Reference](https://docs.frrouting.org/en/latest/) to know more about about the routing stack configuration.
 
 
 Go Back To [Beginning of the document](#) or [Beginning of this section](#routing-stack)
